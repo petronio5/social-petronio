@@ -43,13 +43,19 @@ section#redes-socias img {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.476);
     box-sizing: border-box;
 }
+section#redes-socias img:hover {
+    border: 3px solid blue;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.586);
+    transition: transform 0.3s, border 1s;
+
+}
+
 section#redes-socias {
     text-align: right;
 }
 
-section#redes-socias img:hover {
-    border: 2px solid blue;
-}
+
 iframe#tela {
     position: relative;
     top: 80px;
